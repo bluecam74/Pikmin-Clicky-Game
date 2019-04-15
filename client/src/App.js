@@ -7,13 +7,33 @@ import cards from "./cards.json";
 class App extends Component {
   // Setting this.state.cards to the cards json array
   state = {
-    cards
+    cards,
+    clickedCards: []
   };
 
-  clickedOnce = id => {
-    const cards = this.state.cards.filter(card => card.id !== id);
+  //  onAddItem = () => {
+  //   this.setState(state => { 
+  //     const clickedCards = state.clickedCards.concat(state.card.id);
+  //     return {
+  //       clickedCards
+  //     }
+  //  }
+
+  clickedOnce = (id) => {
+    
+    //const clickedCards = this.state.clickedCards.filter(card => card.id === id);
+    // const clickedArr = clickedCards.concat(state.);
+    // clickedArr.push(clickedCards);
+    
+    const cards = this.state.cards;
+    cards.sort(function(a, b){return 0.5 - Math.random()});
     this.setState({ cards });
+    console.log(cards);
+    
   };
+
+  
+
 
   render() {
     return (
