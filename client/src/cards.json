@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "name": "Red Pikmin",
+      "image": "https://vignette.wikia.nocookie.net/pikmin/images/d/d1/RedPikminHD.png/revision/latest/scale-to-width-down/1000?cb=20130602192755"
+    },
+    {
+      "id": 2,
+      "name": "Blue Pikmin",
+      "image": "https://vignette.wikia.nocookie.net/pikmin/images/9/94/BluePikminHD.png/revision/latest/scale-to-width-down/1000?cb=20130602193158"
+    },
+    {
+      "id": 3,
+      "name": "Yellow Pikmin",
+      "image": "https://vignette.wikia.nocookie.net/pikmin/images/5/54/YellowPikminHD.png/revision/latest/scale-to-width-down/1000?cb=20130602193020"
+    },
+    {
+      "id": 4,
+      "name": "Purple Pikmin",
+      "image": "https://vignette.wikia.nocookie.net/pikmin/images/e/ee/Purple_Pikmin_HD.png/revision/latest?cb=20130701002925"
+    },
+    {
+      "id": 5,
+      "name": "Rock Pikmin",
+      "image": "https://vignette.wikia.nocookie.net/pikmin/images/c/c1/RockPikminHD.png/revision/latest/scale-to-width-down/1000?cb=20130602191350"
+    },
+    {
+      "id": 6,
+      "name": "Mushroom Pikmin",
+      "image": "https://vignette.wikia.nocookie.net/pikmin/images/c/cc/ZombiepikminLARGE.jpg/revision/latest/scale-to-width-down/1000?cb=20111125033706"
+    },
+    {
+      "id": 7,
+      "name": "Nectar Wasp",
+      "image": "https://vignette.wikia.nocookie.net/pikmin/images/1/1e/1nectarwisp.jpg/revision/latest?cb=20090629172732"
+    },
+    {
+      "id": 8,
+      "name": "Olimar and Pikmin",
+      "image": "https://www.n3rdabl3.com/wp-content/images/uploads/2017/04/pikmin.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Enemy and Pikmin",
+      "image": "https://purenintendo.com/wp-content/uploads/2011/06/Pikmin_002.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Duck Enemy and Pikmin",
+        "image": "https://cdn.gamer-network.net/2017/articles/2017-07-27-13-20/hey-pikmin-review-1501158015549.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Raspberry and Pikmin",
+        "image": "https://png2.kisspng.com/sh/734febf11a746c58e5fe4344dd636e3f/L0KzQYm3VMExN5t6j5H0aYP2gLBuTgBqc55uhp88LYDse77wjr0zNahugZ9ALYLkg8HphgJzcZZ4RadqY3S3c7OAWMk0OJc6RqIENES4SYWCUcUzO2U1S6sAOUW5QnB3jvc=/kisspng-pikmin-3-pikmin-2-wii-u-raspberries-5acd4cb78930f5.094459491523403959562.png"
+    },
+
+    {
+        "id": 12,
+        "name": "Olimar and Winged Pikmin",
+        "image": "https://png2.kisspng.com/sh/c610eb2bc0dcccb506b95ab5741496ef/L0KzQYm3VMIzN6JniZH0aYP2gLBuTfhmgV51gd12aX6wgLryjflvNWMyiNt0bXnxPYS0lBlqNaYyTdNtY0nkQLeAVBZiPGEzSqUAMkC7Q4K4VcI1PGE7T6sENEm0RHB3jvc=/kisspng-hey-pikmin-pikmin-2-pikmin-3-wii-u-5adc9a0f77fa40.2352083115244067994914.png"
+    },
+
+    {
+        "id": 13,
+        "name": "Dolphin Ship",
+        "image": "https://www.pikminwiki.com/images/3/3a/SSDolphinII.png"
+    },
+
+    {
+        "id": 14,
+        "name": "Pikmin and Nectar",
+        "image": "https://vignette.wikia.nocookie.net/pikmin/images/f/f5/Pikmin_nectar.jpg/revision/latest/scale-to-width-down/1000?cb=20090410010044"
+    },
+    {
+        "id": 15,
+        "name": "Blue Pikmin and Fruit",
+        "image": "http://assets.sbnation.com/assets/2986671/pikmin3_review_c_400.png"
+    }, 
+    {
+        "id": 16,
+        "name": "Winged Pikmin",
+        "image": "https://vignette.wikia.nocookie.net/pikmin/images/1/16/WingedPikminHD.png/revision/latest/scale-to-width-down/1000?cb=20130602192359"
+    },
+    {
+        "id": 17,
+        "name": "White Pikmin",
+        "image": "https://www.pikminwiki.com/images/7/7d/White_Pikmin_HD.png"
+    },
+    {
+        "id": 18,
+        "name": "Red Pikmin Flower",
+        "image": "http://i.imgur.com/cD2TodO.png"
+    },
+    {
+        "id": 19,
+        "name": "Yellow Pikmin Flower",
+        "image": "https://www.picturesso.com/thumbs/i4EvQI8oP5JknI2OQNFPXya6ScS8jBbaczkX50F2o7jAlZsPDPcqIbDcsqTE27mE3PSYHI6Eai3StEL6pLrCSw.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Yellow Pikmin Bud",
+        "image": "https://www.creativeuncut.com/gallery-27/art/pik3-yellow-pikmin-bud.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Winged Pikmin Raspberry",
+        "image": "https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/hey-pikmin-41217/3DS_HeyPikmin_character_06.jpg"
+    } 
+
+  ]
+  
+  
+  
