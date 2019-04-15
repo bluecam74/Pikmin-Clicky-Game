@@ -11,25 +11,27 @@ class App extends Component {
     clickedCards: []
   };
 
-  //  onAddItem = () => {
-  //   this.setState(state => { 
-  //     const clickedCards = state.clickedCards.concat(state.card.id);
-  //     return {
-  //       clickedCards
-  //     }
-  //  }
+  checkIfClicked = (id) => {
+    console.log("Hello");
+    if (this.state.clickedCards.includes(id)) {
+      console.log("in array");
+    } else {
+      console.log("not in array");
+    }
 
-  clickedOnce = (id) => {
-    
-    //const clickedCards = this.state.clickedCards.filter(card => card.id === id);
-    // const clickedArr = clickedCards.concat(state.);
-    // clickedArr.push(clickedCards);
-    
+  }
+
+  clickedOnce = (id) => {  
+    console.log("yes")  
     const cards = this.state.cards;
     cards.sort(function(a, b){return 0.5 - Math.random()});
     this.setState({ cards });
     console.log(cards);
-    
+    this.setState({clickedCards: this.state.clickedCards.concat(id)});
+    const clicked = this.state.clickedCards
+    console.log(clicked);
+    this.checkIfClicked(id);
+
   };
 
   
@@ -41,6 +43,7 @@ class App extends Component {
         <Score>Current Score: </Score>
         {this.state.cards.map(card => (
           <PikminCard
+            checkIfClicked={this.checkIfClicked}
             clickedOnce={this.clickedOnce}
             id={card.id}
             key={card.id}
