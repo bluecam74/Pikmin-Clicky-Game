@@ -8,21 +8,32 @@ class App extends Component {
   // Setting this.state.cards to the cards json array
   state = {
     cards,
-    clickedCards: []
+    clickedCards: [],
+    score: 0,
+    message: "Don't Click the Same Picture Twice!" 
   };
 
+  resetGame = () => {
+    this.setState({score: 0});
+    this.setState({message: "Don't Click the Same Picture Twice!"});
+  }
+
   checkIfClicked = (id) => {
-    console.log("Hello");
     if (this.state.clickedCards.includes(id)) {
-      console.log("in array");
+      this.setState({score: 0});
+      this.setState({message: "You Lost! Try Again"})
+      console.log("You Lost");
+      console.log(this.state.score);
     } else {
       console.log("not in array");
+      this.setState({ score: this.state.score + 1 })
+      if (this.state.score === 20) {
+        this.setState({message: "Congratulations! You Won!"})
+      };
     }
-
   }
 
   clickedOnce = (id) => {  
-    console.log("yes")  
     const cards = this.state.cards;
     cards.sort(function(a, b){return 0.5 - Math.random()});
     this.setState({ cards });
@@ -39,8 +50,12 @@ class App extends Component {
 
   render() {
     return (
+      <div>
+        <Score score={this.state.score} 
+          message={this.state.message}
+          resetGame = {this.resetGame}> 
+          </Score>
       <Wrapper>
-        <Score>Current Score: </Score>
         {this.state.cards.map(card => (
           <PikminCard
             checkIfClicked={this.checkIfClicked}
@@ -52,6 +67,9 @@ class App extends Component {
           />
         ))}
       </Wrapper>
+
+      </div>
+      
     );
   }
 }

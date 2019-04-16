@@ -1,9 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Courgette|Dancing+Script|Pacifico|Satisfy');
+
 .title {
     width: 100%;
     text-align: center;
     font-size: 3rem;
-    text-decoration: underline;
-    color: #2A77AE;
+    color: white;
     margin-bottom: 50px;
+    font-family: 'Satisfy', cursive;
+  }
+
+  .message {
+    font-family: 'Acme', sans-serif;
+  }
+
+.reset {
+  Width: 150px;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  color: rgb(41, 109, 41);
+  font-weight: bold;
+  }
+
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(41, 109, 41);
   }
   
