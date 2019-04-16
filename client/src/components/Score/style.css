@@ -3,14 +3,15 @@
 .title {
     width: 100%;
     text-align: center;
-    font-size: 3rem;
     color: white;
-    margin-bottom: 50px;
+    font-size: 80px;
+    margin-bottom: 30px;
     font-family: 'Satisfy', cursive;
   }
 
   .message {
     font-family: 'Acme', sans-serif;
+    padding: 5px;
   }
 
 .reset {
@@ -20,6 +21,7 @@
   background-color: white;
   color: rgb(41, 109, 41);
   font-weight: bold;
+  margin: 15px;
   }
 
   .header {
