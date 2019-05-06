@@ -23,6 +23,8 @@ app.get("*", (req, res) => {
 
 
 
-app.listen(PORT, () => {
-  console.log(`🌎 ==> API server now on port ${PORT}!`);
-});
+app.listen(process.env.PORT || 8080);
+  
+//   , () => {
+//   console.log(`🌎 ==> API server now on port ${PORT}!`);
+// });
