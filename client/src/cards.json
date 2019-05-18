@@ -36,59 +36,43 @@
     },
     {
       "id": 8,
-      "name": "Olimar and Pikmin",
-      "image": "https://www.n3rdabl3.com/wp-content/images/uploads/2017/04/pikmin.jpg"
-    },
-    {
-      "id": 9,
       "name": "Enemy and Pikmin",
       "image": "https://purenintendo.com/wp-content/uploads/2011/06/Pikmin_002.jpg"
     },
     {
-        "id": 10,
+        "id": 9,
         "name": "Duck Enemy and Pikmin",
         "image": "https://cdn.gamer-network.net/2017/articles/2017-07-27-13-20/hey-pikmin-review-1501158015549.jpg"
     },
-    {
-        "id": 11,
-        "name": "Raspberry and Pikmin",
-        "image": "https://png2.kisspng.com/sh/734febf11a746c58e5fe4344dd636e3f/L0KzQYm3VMExN5t6j5H0aYP2gLBuTgBqc55uhp88LYDse77wjr0zNahugZ9ALYLkg8HphgJzcZZ4RadqY3S3c7OAWMk0OJc6RqIENES4SYWCUcUzO2U1S6sAOUW5QnB3jvc=/kisspng-pikmin-3-pikmin-2-wii-u-raspberries-5acd4cb78930f5.094459491523403959562.png"
-    },
 
     {
-        "id": 12,
-        "name": "Olimar and Winged Pikmin",
-        "image": "https://png2.kisspng.com/sh/c610eb2bc0dcccb506b95ab5741496ef/L0KzQYm3VMIzN6JniZH0aYP2gLBuTfhmgV51gd12aX6wgLryjflvNWMyiNt0bXnxPYS0lBlqNaYyTdNtY0nkQLeAVBZiPGEzSqUAMkC7Q4K4VcI1PGE7T6sENEm0RHB3jvc=/kisspng-hey-pikmin-pikmin-2-pikmin-3-wii-u-5adc9a0f77fa40.2352083115244067994914.png"
-    },
-
-    {
-        "id": 13,
+        "id": 10,
         "name": "Dolphin Ship",
         "image": "https://www.pikminwiki.com/images/3/3a/SSDolphinII.png"
     },
 
     {
-        "id": 14,
+        "id": 11,
         "name": "Pikmin and Nectar",
         "image": "https://vignette.wikia.nocookie.net/pikmin/images/f/f5/Pikmin_nectar.jpg/revision/latest/scale-to-width-down/1000?cb=20090410010044"
     },
     {
-        "id": 15,
+        "id": 12,
         "name": "Blue Pikmin and Fruit",
         "image": "http://assets.sbnation.com/assets/2986671/pikmin3_review_c_400.png"
     }, 
     {
-        "id": 16,
+        "id": 13,
         "name": "Winged Pikmin",
         "image": "https://vignette.wikia.nocookie.net/pikmin/images/1/16/WingedPikminHD.png/revision/latest/scale-to-width-down/1000?cb=20130602192359"
     },
     {
-        "id": 17,
+        "id": 14,
         "name": "White Pikmin",
         "image": "https://www.pikminwiki.com/images/7/7d/White_Pikmin_HD.png"
     },
     {
-        "id": 18,
+        "id": 15,
         "name": "Red Pikmin Flower",
         "image": "http://i.imgur.com/cD2TodO.png"
     }
