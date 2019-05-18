@@ -2,7 +2,7 @@
 
 #  Pikmin Memory Game 
 ### (Clicky Game)
- _Full Stack Application_
+ _Full Stack Application - with React_
 
 #### Deployed Link:
 * https://pikmin-clicky.herokuapp.com/
