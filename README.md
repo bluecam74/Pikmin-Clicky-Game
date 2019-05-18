@@ -1,29 +1,39 @@
-# Create React Express App
 
-## About This Boilerplate
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+#  Pikmin Memory Game 
+### (Clicky Game)
+ _Full Stack Application_
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+#### Deployed Link:
+* https://pikmin-clicky.herokuapp.com/
 
-## Starting the app locally
+### About
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+Demonstrates full stack application using React to render and re-render images on page. 
 
-```
-npm install
-```
+<p align="center"><img src="./public/images/PikminScnSht1.png" alt=“Scrape Preview Top” width="675"></p>
 
-This should install node modules within the server and the client folder.
+***
 
-After both installations complete, run the following command in your terminal:
+<p align="center"><img src="./public/images/PikminScnSht2.png" alt=“Scrape Preview Top” width="675"></p>
 
-```
-npm start
-```
+***
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+<p align="center"><img src="./public/images/PikminScnSht3.png" alt=“Scrape Preview Top” width="675"></p>
 
-## Deployment (Heroku)
+***
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+### Technologies Used
+
+* React
+
+* Node JS
+
+* Bootstrap
+
+* Javascript
+
+* Express
+
+* JSON
+
